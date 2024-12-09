@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#text {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffcccb;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.message {
+    position: relative;
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 5px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.close-button:hover {
+    background-color: #d32f2f;
+}
+
+.carousel {
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddd;
+    font-size: 20px;
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#menu {
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 200px;
+    display: none;
+    border-radius: 8px;
+}
+
+#menu p {
+    margin: 10px 0;
+    color: #333;
+}
+
+#menuButton {
+    background-color: #008CBA;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#menuButton:hover {
+    background-color: #007B9A;
+}
